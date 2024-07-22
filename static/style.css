@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#login-back-img{
+    height: 100vh;
+    width: 100vw;
+    /* position: relative */
+
+}
+
+#login-page {
+    position: absolute;
+    text-align: center;
+    color: white;
+
+    text-shadow: #031835 20%;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: .75em 0;
+    color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    transition: all 0.4s ease;
+    /* display: flex; */
+    /* border-bottom: 2px solid; */
+    box-shadow: 0px 0px 20px gray;
+    background-color: white;
+    
+}
+
+nav .nav-links {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+  
+}
+nav .nav-links a{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+            /* read page */
+
+#read-head{
+
+    height: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+#read-div{
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#read-para{
+    /* margin-top: 40px; */
+    /* width: 300px; */
+    text-align: center;
+    text-indent: 20%;
+    text-align-last: center;
+    text-justify: auto;
+}
